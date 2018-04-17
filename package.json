@@ -41,7 +41,6 @@
     "nodemon": "^1.14.11",
     "qs-google-signature": "^1.1.1",
     "request": "^2.36.0",
-    "winston": "^2.4.0",
-    "utils": "git+https://d1dcb7990be0f3a23cc63c0c2988881c9581d048@github.com/Percayso-VS/utils.git"
+    "winston": "^2.4.0"
   }
 }
