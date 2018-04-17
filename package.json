@@ -1,0 +1,47 @@
+{
+  "name": "JWT_authentication_API_bolilerplate",
+  "version": "1.0.0",
+  "description": "This is basically a JSON Web Token user authentication API boiler plate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Reuben Antz",
+    "email": "cheerantz@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/antzshrek/JWT_authentication_API_bolilerplate/issues"
+  },
+  "contributors":
+    {
+      "name": "Reuben Antz",
+      "email": "cheerantz@gmail.com"
+    },
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "connect-mongo": "^2.0.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "debug": "^2.1.0",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "geolib": "^2.0.24",
+    "google-distance-matrix": "^1.1.1",
+    "jsonwebtoken": "^8.0.0",
+    "lodash": "^4.17.5",
+    "log": "^1.4.0",
+    "method-override": "^2.3.10",
+    "mongoose": "^4.12.4",
+    "nodemon": "^1.14.11",
+    "qs-google-signature": "^1.1.1",
+    "request": "^2.36.0",
+    "winston": "^2.4.0",
+    "utils": "git+https://d1dcb7990be0f3a23cc63c0c2988881c9581d048@github.com/Percayso-VS/utils.git"
+  }
+}
