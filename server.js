@@ -13,9 +13,8 @@ const   express           = require("express"),
         config            = require('./config'),
         nodemon           = require("nodemon"),
         path              = require('path'),
-        morgan            = require('morgan'),
         cors              = require('cors'),
-        log               = require('utils/logger').getLogger('APP');
+        log               = require('./util/logger').getLogger('APP');
 
 
 /********************

@@ -14,11 +14,10 @@
   "bugs": {
     "url": "https://github.com/antzshrek/JWT_authentication_API_bolilerplate/issues"
   },
-  "contributors":
-    {
-      "name": "Reuben Antz",
-      "email": "cheerantz@gmail.com"
-    },
+  "contributors": {
+    "name": "Reuben Antz",
+    "email": "cheerantz@gmail.com"
+  },
   "license": "MIT",
   "dependencies": {
     "bcrypt": "^1.0.3",
@@ -36,12 +35,13 @@
     "jsonwebtoken": "^8.0.0",
     "lodash": "^4.17.5",
     "log": "^1.4.0",
+    "log4js": "^2.5.3",
     "method-override": "^2.3.10",
+    "moment": "^2.22.1",
     "mongoose": "^4.12.4",
     "nodemon": "^1.14.11",
     "qs-google-signature": "^1.1.1",
     "request": "^2.36.0",
-    "winston": "^2.4.0",
-    "utils": "git+https://d1dcb7990be0f3a23cc63c0c2988881c9581d048@github.com/Percayso-VS/utils.git"
+    "winston": "^2.4.0"
   }
 }

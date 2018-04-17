@@ -7,7 +7,7 @@
 
 const   config              = require('./config'),
         mongoose            = require('mongoose'),
-        log                 = require('utils/logger').getLogger('APP');
+        log                 = require('./util/logger').getLogger('APP');
 
   mongoose.Promise = config.mongoose.Promise;
   
