@@ -14,12 +14,6 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: [true, 'Please add a password']
     },
-    companyName: {
-        type: String        
-    },
-    profileimage:{
-        type: String
-    },
     email: {type: String, unique: true, required: true},
     meta: {
         created_at: {type: Date, default: Date.now},
