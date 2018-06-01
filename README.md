@@ -1,5 +1,6 @@
 # README
 
+[![Open Source Helpers](https://www.codetriage.com/antzshrek/jwt_authentication_api_bolilerplate/badges/users.svg)](https://www.codetriage.com/antzshrek/jwt_authentication_api_bolilerplate)
 
 ### Project Title
 
