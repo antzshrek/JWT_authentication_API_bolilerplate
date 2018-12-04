@@ -24,7 +24,7 @@ To run the demo web app offline, you need to install the following;
 
 ## Quick Start
 
-1. `sudo npm install`
+1. `npm install`
 2. `node index` (recommend install nodemon)
 3. Open <http://localhost:3000>
 
