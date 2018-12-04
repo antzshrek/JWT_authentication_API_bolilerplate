@@ -1,6 +1,9 @@
 # README
 
 [![Open Source Helpers](https://www.codetriage.com/antzshrek/jwt_authentication_api_bolilerplate/badges/users.svg)](https://www.codetriage.com/antzshrek/jwt_authentication_api_bolilerplate)
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+
+
 
 ### Project Title
 
