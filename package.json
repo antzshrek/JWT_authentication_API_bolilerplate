@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": {
     "name": "Reuben Antz",
@@ -39,6 +41,8 @@
     "mongoose": "^5.3.14",
     "nodemon": "^1.18.7",
     "request": "^2.88.0",
-    "winston": "^2.4.0"
-  }
+    "winston": "^2.4.0",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
