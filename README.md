@@ -3,6 +3,7 @@
 [![Open Source Helpers](https://www.codetriage.com/antzshrek/jwt_authentication_api_bolilerplate/badges/users.svg)](https://www.codetriage.com/antzshrek/jwt_authentication_api_bolilerplate)
 [![Known Vulnerabilities](https://snyk.io/test/github/antzshrek/jwt_authentication_api_bolilerplate/badge.svg)](https://snyk.io/test/github/antzshrek/jwt_authentication_api_bolilerplate)
 <a href="https://circleci.com/gh/antzshrek/JWT_authentication_API_bolilerplate"><img src="https://circleci.com/gh/antzshrek/JWT_authentication_API_bolilerplate.svg?style=shield" alt="CircleCI Build Status"></a>
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/antzshrek/JWT_authentication_API_bolilerplate.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/antzshrek/JWT_authentication_API_bolilerplate/alerts/)
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
 
 
