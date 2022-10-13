@@ -16,8 +16,9 @@ jobs:
       # - image: circleci/mongo:3.4.4
 
     working_directory: ~/repo
-
+    
     steps:
+      - run: sudo apt-get update && sudo apt-get install -y git sudo tar
       - checkout
 
       # Download and cache dependencies
