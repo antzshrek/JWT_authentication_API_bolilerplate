@@ -17,7 +17,7 @@ jobs:
     working_directory: ~/repo
     
     steps:
-      - run: sudo apt-get update && sudo apt-get install -y git sudo tar npm audit fix --force
+      - run: sudo apt-get update && sudo apt-get install -y git sudo tar
       - checkout
 
       # Download and cache dependencies
@@ -29,7 +29,6 @@ jobs:
 
       - run:
             npm cache verify &&  npm install npm@latest -g
-            
       - checkout
 
       - save_cache:
