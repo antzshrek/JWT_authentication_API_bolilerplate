@@ -22,7 +22,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "bcrypt": "^3.0.2",
+    "bcrypt": "^5.1.0",
     "bluebird": "^3.5.3",
     "body-parser": "^1.18.3",
     "compression": "^1.7.3",
@@ -35,14 +35,14 @@
     "jsonwebtoken": "^8.4.0",
     "lodash": "^4.17.11",
     "log": "^3.2.0",
-    "log4js": "^3.0.6",
+    "log4js": "^6.7.0",
     "method-override": "^3.0.0",
     "moment": "^2.22.2",
     "mongoose": "^5.3.14",
     "nodemon": "^2.0.3",
     "request": "^2.88.0",
-    "winston": "^2.4.0",
-    "snyk": "^1.189.0"
+    "snyk": "^1.189.0",
+    "winston": "^2.4.0"
   },
   "snyk": true
 }
