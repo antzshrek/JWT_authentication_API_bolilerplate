@@ -28,9 +28,9 @@ jobs:
           - v1-dependencies-
 
       - run:
-           - npm cache verify
-           - npm i -g npm
-           - npm audit fix
+            npm cache verify
+            npm i -g npm
+            npm audit fix
             npm install
 
       - save_cache:
