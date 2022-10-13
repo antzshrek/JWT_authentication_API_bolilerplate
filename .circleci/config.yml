@@ -6,8 +6,16 @@ version: 2
 jobs:
   build:
     docker:
-        version: 20.10.17
-      - image: circleci/node:7.10
+          - image: cimg/base:stable
+    steps:
+      - checkout
+      - node/install:
+          install-yarn: true
+          node-version: '16.13'
+      - run: node --version
+      
+ #       version: 20.10.17
+ #     - image: circleci/node:7.10
       
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
