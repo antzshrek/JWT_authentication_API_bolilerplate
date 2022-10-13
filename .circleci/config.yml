@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
         version: 20.10.17
-      - image: circleci/node:7.10
+        image: circleci/node:7.10
       
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
@@ -27,7 +27,11 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
-      - run: npm install
+      - run:
+           - npm cache verify
+           - npm i -g npm
+           - npm audit fix
+            npm install
 
       - save_cache:
           paths:
@@ -36,5 +40,3 @@ jobs:
         
       # run tests!
       # - run: yarn test
-
-
