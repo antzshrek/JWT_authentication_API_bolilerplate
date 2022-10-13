@@ -35,7 +35,7 @@
     "jsonwebtoken": "^8.4.0",
     "lodash": "^4.17.11",
     "log": "^3.2.0",
-    "log4js": "^3.0.6",
+    "log4js": "^6.4.0",
     "method-override": "^3.0.0",
     "moment": "^2.22.2",
     "mongoose": "^5.3.14",
