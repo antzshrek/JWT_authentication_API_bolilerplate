@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
         version: 20.10.17
-      - image: circleci/node:7.10
+        image: circleci/node:7.10
       
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
@@ -36,5 +36,3 @@ jobs:
         
       # run tests!
       # - run: yarn test
-
-
