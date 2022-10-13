@@ -6,7 +6,8 @@ version: 2
 jobs:
   build:
     docker:
-      # specify the version you desire here
+        - setup_remote_docker:
+        version: 20.10.17
       - image: circleci/node:7.10
       
       # Specify service dependencies here if necessary
