@@ -67,7 +67,7 @@ To run the demo web app offline, you need to install the following;
 ### Who do I talk to? ###
 
 * Repo owner or admin: [Reuben Antz](https://github.com/antzshrek). 
-*Feel free to contact  [Antz](cheerantz@gmail.com) if you wanna Fork the project to try something unique, and test.*
+*Feel free to contact  [Antz](antz@antzshrek.com) if you wanna Fork the project to try something unique, and test.*
 
 
 ## Usage
