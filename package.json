@@ -34,7 +34,7 @@
     "express-session": "^1.17.3",
     "jsonwebtoken": "^9.0.2",
     "lodash": "^4.17.21",
-    "log": "^6.3.1",
+    "log": "^6.3.2",
     "log4js": "^6.9.1",
 
     "method-override": "^3.0.0",
