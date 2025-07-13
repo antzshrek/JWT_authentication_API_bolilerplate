@@ -42,7 +42,7 @@
     "mongoose": "^5.3.14",
     "nodemon": "^2.0.3",
     "request": "^2.88.0",
-    "snyk": "^1.189.0",
+    "snyk": "^1.1297.3",
     "winston": "^3.11.0"
   },
   "snyk": true
